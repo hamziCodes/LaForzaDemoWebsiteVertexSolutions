@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import forzaLogoImage from "../../assets/icon_tyaoce.png";
 import {
   Menu,
   X,
@@ -54,22 +55,7 @@ const liquidIn = {
 // ---------------- LOGO ----------------
 function ForzaLogo({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 100 100" className={className} aria-hidden="true">
-      <defs>
-        <linearGradient id="bolt" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#ef4444" />
-          <stop offset="100%" stopColor="#dc2626" />
-        </linearGradient>
-      </defs>
-      {/* Stylised slanted Z / lightning bolt mark */}
-      <polygon
-        points="78,8 32,46 56,50 22,92 30,52 12,48"
-        fill="url(#bolt)"
-        stroke="#7f1d1d"
-        strokeWidth="0.6"
-      />
-      <polygon points="86,46 60,68 70,70 54,86 62,68 52,66" fill="url(#bolt)" opacity="0.95" />
-    </svg>
+    <img src={forzaLogoImage} alt="La Forza logo" className={className} />
   );
 }
 
