@@ -175,7 +175,7 @@ function Hero() {
   const stats = [
     { n: "15,000 SQ FT", l: "World-Class Facility" },
     { n: "100+", l: "Premium Machines" },
-    { n: "Islamabad", l: "Flagship Since 2019" },
+    { n: "Lahore", l: "Flagship Since 2019" },
   ];
   return (
     <section className="relative min-h-screen overflow-hidden flex items-center justify-center pt-24 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-red-900/20 via-[#0a0a0a] to-[#0a0a0a]">
